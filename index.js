@@ -1,6 +1,13 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function testIsPalindrome() {
+  console.log(isPalindrome("abba") === true); // Test case 1
+  console.log(isPalindrome("racecar") === true); // Test case 2
+  console.log(isPalindrome("a") === true); // Test case 3
+  console.log(isPalindrome("robot") === false); // Test case 4
+  console.log(isPalindrome("ab") === false); // Test case 5
 }
+
+testIsPalindrome();
+
 
 /* 
   Add your pseudocode here
